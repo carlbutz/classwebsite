@@ -24,7 +24,7 @@ header{
 }
 
 header a{
-    color: yellow;
+    color: black;
     font-size: 18px;
 }
 .headerLeft{
@@ -36,10 +36,17 @@ header a{
     width: 175px;
 }
 
+.headerRight{
+    float: right;
+    margin-top: 15px;
+    height: 200px;
+    width: 175px;
+}
+
 .headerH1{
     font-size: 30px;
     float: right;
-    margin-right: 300px;
+    margin-right: 175px;
     margin-top: 25px;
     color: black;
     padding: 0px;
@@ -48,11 +55,13 @@ header a{
 
 nav{
     float: right;
-    margin-right: 300px;
+    margin-right: 350px;
 }
 
 nav ul{
     clear: both;
+    text-align: center;
+    margin-top: -150px;
 }
 
 nav li{
@@ -61,18 +70,12 @@ nav li{
     margin-right: 15px;
     list-style-type: none;
 }
-.headerRight{
-    float: right;
-    /* margin-top: 25px;
-    margin-left: 780px; */
-    height: 200px;
-    width: 175px;
-}
+
 
 a:link{text-decoration: none;}
 a:visited{text-decoration: none;}
 a:hover{
     text-decoration-color:none;
-    color:blue;
+    color:rebeccapurple;
 }
 a:active{text-decoration: none;}
