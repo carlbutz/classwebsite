@@ -1,25 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    color: hsl(200, 39%, 95%);
-    /* outline: 2px dotted black; */
+    /* color: hsl(200, 39%, 95%); */
 }
 
-body{
-
-    width: 960px;
-    margin: 0 auto;
-    background-color: black;
-}
-
-.racePixSize{
-    height: 150px;
-    width: 150px;
-}
-
+/* Start Header Information */
 header{
     margin-top: 15px;
-    background-color:#c9b897;
+    background-color:#c9b897; 
     height: 236px;
 }
 
@@ -39,19 +27,19 @@ header a{
 .headerRight{
     float: right;
     margin-top: 15px;
+    margin-right:5px;
     height: 200px;
     width: 175px;
 }
 
 .headerH1{
-    font-size: 30px;
+    font-size: 35px;
     float: right;
-    margin-right: 175px;
-    margin-top: 25px;
+    margin-right: 150px;
+    margin-top: 95px;
     color: black;
     padding: 0px;
 }
-
 
 nav{
     float: right;
@@ -61,21 +49,94 @@ nav{
 nav ul{
     clear: both;
     text-align: center;
-    margin-top: -150px;
+    margin-top: -75px;
 }
 
 nav li{
     display: inline-block;
-    margin-top: 0px;
     margin-right: 15px;
     list-style-type: none;
 }
-
 
 a:link{text-decoration: none;}
 a:visited{text-decoration: none;}
 a:hover{
     text-decoration-color:none;
-    color:rebeccapurple;
+    color:#f4c86e;
+    background-color: black;
 }
 a:active{text-decoration: none;}
+
+/* End Header Information */
+
+/* Start Body Information */
+body{
+
+    width: 960px;
+    margin: 0 auto;
+    background-color: #f2deb6 ;
+}
+
+body li{
+    list-style-type: none;
+}
+
+.racePixLeft{
+    clear:both;
+    margin-left: 490px;
+    /* margin-top: -200px; */
+    height: 150px;
+    width: 150px;
+}
+
+.listLeft{
+    float: left;
+    margin-left: 125px;
+    margin-bottom: 50px;
+    /* margin-top: 60px; */
+}
+
+.racePixRight{
+    float: right;
+    margin-right:490px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    height: 150px;
+    width: 150px;
+}
+
+.listRight{
+    clear:both;
+    /* float:right; */
+    text-align: right;
+    /* margin-left: 400px; */
+    /* margin-bottom: 150px; */
+    margin-top:-150px;
+}
+
+h2{
+    color: #735e34;
+    font-size: 30px;
+}
+
+.headingLeft{
+    margin-left:100px;
+}
+
+.headingRight{
+    clear: both;
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.articleLeft{
+    /* background-color: chartreuse; */
+    height: 160px;
+}
+
+.articleRight{
+    /* background-color: plum; */
+    width: 870px;
+    height: 160px;
+}
