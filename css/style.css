@@ -61,7 +61,6 @@ nav li{
 a:link{text-decoration: none;}
 a:visited{text-decoration: none;}
 a:hover{
-    text-decoration-color:none;
     color:#f4c86e;
     background-color: black;
 }
