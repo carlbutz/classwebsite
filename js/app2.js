@@ -17,7 +17,8 @@ window.onscroll = function(ev) {
             
         } else
         {
-            document.write('I am sorry, but you did not follow directions. Please refresh page and try again.');
+            // document.write('I am sorry, but you did not follow directions. Please refresh page and try again.');
+            document.getElementById('scroll-placeholder').textContent = 'I am sorry, but you did not follow directions. Please refresh page and try again.'
         }
     };
 };
