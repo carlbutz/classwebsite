@@ -45,7 +45,7 @@ header a{
 
 nav{
     float: right;
-    margin-right: 350px;
+    margin-right: 280px;
 }
 
 nav ul{
@@ -146,4 +146,23 @@ h2{
     /* background-color: plum; */
     width: 870px;
     height: 160px;
+}
+
+.dicePix{
+    height: 100px;
+    width: 100px;
+}
+
+.articleCenterDice{
+    clear:both;
+    float: left;
+    margin-left:125px;
+    text-align: center;
+    /* margin-top:-100px; */
+}
+
+.articleLeftDice{
+    clear:both;
+    background-color: black;
+    height: 5px;
 }
